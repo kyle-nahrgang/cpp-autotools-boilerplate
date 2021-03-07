@@ -1,0 +1,59 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# autotools
+**/Makefile
+**/Makefile.in
+aclocal.m4
+autom4te.cache/
+aux-dist/
+configure
+config.log
+config.status
+m4/
+libtool
+docs/Doxyfile
+**/.deps
+**/.libs
+
+# package things
+*.tar.gz
+
+# test things
+test/*.log
+test/*.trs
+test/*.test
+
+# docs things
+docs/html
+docs/latex
